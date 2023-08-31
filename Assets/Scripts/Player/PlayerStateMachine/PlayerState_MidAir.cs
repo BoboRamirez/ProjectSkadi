@@ -115,7 +115,7 @@ public class PlayerState_MidAir : PlayerBaseState
             _context.AddFlag(StateFlags.air);
             _context.StartCoroutine(JumpHandler(ctx));
         }
-        else if (_context.CurrentState == _factory.GetMidAir())
+        else if (_context.CurrentState == _factory.GetMidAir() && _jumpCounter > 0)
         {
             _context.pMM.FreezeVertical();
             Jump(ctx);

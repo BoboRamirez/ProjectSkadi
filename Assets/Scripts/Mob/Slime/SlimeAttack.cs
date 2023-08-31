@@ -58,7 +58,6 @@ public class SlimeAttack : MobBaseState
     private void AttackDetection()
     {
         _hitTarget  = Physics2D.OverlapCircle(_context.transform.position, 4f, LayerMask.GetMask("Player"));
-        Debug.Log(_hitTarget);
         if (_hitTarget == null) return;
         _target = _hitTarget.gameObject.GetComponent<PlayerStateManager>() as IDamagable;
         if (_target == null) return;

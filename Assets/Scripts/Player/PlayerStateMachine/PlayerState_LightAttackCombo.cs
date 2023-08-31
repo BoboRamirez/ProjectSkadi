@@ -120,7 +120,7 @@ public class PlayerState_LightAttackCombo : PlayerBaseState
             if (_targetMob == null)
                 continue;
             _targetMob.TakeDamage(_context.ComboList[_comboCounter].damage);
-            Debug.Log(_targetMob.ToString() + "get Hit!");
+            //Debug.Log(_targetMob.ToString() + "get Hit!");
         }
     }
 }

@@ -1,0 +1,208 @@
+{
+    "name": "Player Control",
+    "maps": [
+        {
+            "name": "PlayerDefault",
+            "id": "b4f47f52-9eb8-40d5-a0c2-e2f1d67ca2cb",
+            "actions": [
+                {
+                    "name": "moveLeft",
+                    "type": "Button",
+                    "id": "765fbd6b-87d4-4f7a-a945-7a8ec440cc5b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "moveRight",
+                    "type": "Button",
+                    "id": "f85c8443-2f66-44cd-9106-730a03ac3d48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "aimUp",
+                    "type": "Button",
+                    "id": "9d125850-475d-4bf9-8f87-89ac0baccbd4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "crouchDown",
+                    "type": "Button",
+                    "id": "3e1fbe45-bde6-4b26-a1f9-bf1f6a6569fd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "jump",
+                    "type": "Button",
+                    "id": "83b63602-f4ec-4b6d-85be-52b18306f20e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "dash",
+                    "type": "Button",
+                    "id": "78585461-dff8-4eaf-b04f-79586bbedfe6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "lightAttack",
+                    "type": "Button",
+                    "id": "e49fe933-9b03-449f-8c30-4c83a0eec25d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "heavyAttack",
+                    "type": "Button",
+                    "id": "b9403d29-9671-4921-ba28-9282ce3119b6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f0182c3d-7546-49a7-a3f1-83470d8475e2",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "moveLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "728a9b00-859c-459d-aca1-8a7d2e3d0d25",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "moveRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8de4f339-cfff-41fd-9900-9550bb8e9e1c",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "aimUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd405cdd-4075-4a0e-9127-7a6098aad1aa",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "crouchDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "64332e50-e2c0-449e-a576-0095dffe5689",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1850a879-5e43-4c1b-819d-4b3bf2ab09ea",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da36c935-734b-4342-b50a-18bc1c441d26",
+                    "path": "<Keyboard>/j",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "lightAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "841a5568-3397-4012-a7ad-5ba609e6e7a1",
+                    "path": "<Keyboard>/numpad1",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "lightAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "014e5828-a6a3-4ec2-9770-7ebdeaa270b7",
+                    "path": "<Keyboard>/k",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "heavyAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "33e9792a-e547-4633-b6c5-a1c0780fde12",
+                    "path": "<Keyboard>/numpad2",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "heavyAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard Control Scheme",
+            "bindingGroup": "Keyboard Control Scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

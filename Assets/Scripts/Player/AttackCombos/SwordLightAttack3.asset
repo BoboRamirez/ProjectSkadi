@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1800bc4fcbc6a84c9418dbab2034c4d, type: 3}
+  m_Name: SwordLightAttack3
+  m_EditorClassIdentifier: 
+  clip: {fileID: 7400000, guid: e52f66db1c92f1a46ad7018729662fb2, type: 2}
+  animationClipName: Sword_Combo3
+  interuptGap: -0.2
+  endingTime: 0.5
+  hitBoxPointA: {x: -1.2, y: 1}
+  hitBoxPointB: {x: 1, y: 0}
+  damage: 30
